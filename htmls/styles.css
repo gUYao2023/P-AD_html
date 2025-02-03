@@ -1,0 +1,133 @@
+/* 通用样式 */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-top: 50px;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* 导航栏 */
+.header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292b2c;
+    padding: 0.5em 1em;
+}
+
+.header h1{
+    font-size: 12px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 3em 1em;
+}
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.cta-button {
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.cta-button:hover {
+    background-color: #e2e2e2;
+}
+
+.bordered-section {
+    border: 2px solid #696969;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影 */
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+/* 核心特性 */
+.title,
+.abstract,
+.dataset,
+.benchmark,
+.contact {
+    background-color: #fff;
+    margin: 2em auto;
+    padding: 2em 1em;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.title{
+    /* margin: 50px; */
+    text-align: center;
+}
+
+.abstract h2,
+.dataset h2,
+.benchmark h2,
+.contact h2 {
+    margin-bottom: 1em;
+}
+.abstract ul {
+    list-style: none;
+    padding-left: 0;
+}
+.abstract li {
+    margin-bottom: 0.5em;
+}
+
+/* 代码块 */
+pre {
+    background-color: #f2f2f2;
+    padding: 1em;
+    overflow-x: auto;
+}
+code {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/*img/tabel caption*/
+
+/* 页脚 */
+.footer {
+    background-color: #292b2c;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
